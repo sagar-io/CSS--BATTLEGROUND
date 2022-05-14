@@ -69,6 +69,7 @@ body{
 }
 .null {
     background:#000;
+    pointer-events: none;
 }
 .sup-btn{
     width:120px;
