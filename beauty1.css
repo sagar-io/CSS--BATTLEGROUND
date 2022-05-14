@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    width: 250px;
+    height: 400px;
+    background-color: red;
+    border-radius: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px 8px gray;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.box:hover {
+    transform: scale(1.1);
+}
+.child {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 50px solid #fff;
+}
